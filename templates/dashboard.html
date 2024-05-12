@@ -20,6 +20,13 @@
         </a>
     </div>
 
+    <!-- Chat PDF Link -->
+    <div>
+        <a href="/upload">
+            <button type="button">Chat with PDF</button>
+        </a>
+    </div>
+
     <!-- Note Section -->
     <div>
         <h2>Your Notes</h2>
@@ -51,9 +58,7 @@
                 success: function(response) {
                     alert(response.message);
                     if (!response.error) {
-                        // Clear the textarea after saving
                         document.getElementById('noteContent').value = '';
-                        // Optionally, add the new note to the list of notes
                         $('#notesList').prepend(`<li><textarea data-noteid="${response.note_id}">${noteContent}</textarea><button onclick="updateNote(${response.note_id})">Update Note</button></li>`);
                     }
                 }
@@ -73,7 +78,6 @@
             });
         }
 
-        // Set up auto-save every 30 seconds
         setInterval(function() {
             var noteContent = document.getElementById('noteContent').value;
             $.ajax({

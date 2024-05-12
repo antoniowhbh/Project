@@ -1,9 +1,27 @@
-<!-- templates/signup.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Signup Page</title>
+    <style>
+        #coursesContainer {
+            max-height: 150px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        #coursesList {
+            list-style: none;
+            padding: 0;
+        }
+        .course-item {
+            margin: 5px 0;
+        }
+        #selectedCourses {
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
     <h2>Signup</h2>
@@ -12,29 +30,118 @@
         Email: <input type="email" id="email" required><br>
         Username: <input type="text" id="username" required><br>
         Password: <input type="password" id="password" required><br>
+        Courses Taken:
+        <br>
+        <input type="text" id="courseSearch" oninput="filterCourses()" placeholder="Search courses..."><br>
+        <div id="coursesContainer">
+            <ul id="coursesList"></ul>
+        </div>
+        <br>
+        <div id="selectedCourses"></div>
         <button type="button" onclick="submitSignup()">Register</button>
+        <button type="button" onclick="newStudentSignup()">I'm a New Student</button>
     </form>
+
     <script>
-        function submitSignup() {
+        var allCourseTitles = [];
+
+        function populateCoursesCheckboxes() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/courses", true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    allCourseTitles = JSON.parse(xhr.responseText);
+                    var coursesList = document.getElementById('coursesList');
+                    allCourseTitles.forEach(function (title) {
+                        var listItem = createCourseListItem(title);
+                        coursesList.appendChild(listItem);
+                    });
+                } else {
+                    alert('Failed to load courses: ' + xhr.status);
+                }
+            };
+            xhr.send();
+        }
+
+        function createCourseListItem(title) {
+            var listItem = document.createElement('li');
+            var checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = title;
+            checkbox.id = 'course_' + title.replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_]/g, '');
+            checkbox.addEventListener('change', displaySelectedCourses);
+
+            var label = document.createElement('label');
+            label.setAttribute('for', checkbox.id);
+            label.textContent = title;
+
+            listItem.appendChild(checkbox);
+            listItem.appendChild(label);
+            listItem.className = 'course-item';
+            return listItem;
+        }
+
+        function displaySelectedCourses() {
+            var selectedCoursesContainer = document.getElementById('selectedCourses');
+            var checkboxes = document.querySelectorAll('#coursesList input[type="checkbox"]:checked');
+            selectedCoursesContainer.innerHTML = '';  // Clear previous selections
+
+            checkboxes.forEach(function (checkbox) {
+                var courseItem = document.createElement('div');
+                courseItem.className = 'course-item';
+                courseItem.textContent = checkbox.value;
+                selectedCoursesContainer.appendChild(courseItem);
+            });
+        }
+
+        function filterCourses() {
+            var searchTerm = document.getElementById('courseSearch').value.toLowerCase();
+            var coursesList = document.getElementById('coursesList');
+            coursesList.innerHTML = '';  // Clear existing list
+
+            allCourseTitles.forEach(function (title) {
+                if (title.toLowerCase().includes(searchTerm)) {
+                    coursesList.appendChild(createCourseListItem(title));
+                }
+            });
+        }
+
+        window.onload = function () {
+            populateCoursesCheckboxes();
+        };
+
+        function submitSignup(selectedCourses = true) {
             var xhr = new XMLHttpRequest();
             xhr.open("POST", "/signup", true);
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.onload = function () {
                 if (xhr.status === 200) {
                     alert('Registration successful!');
-                    window.location.href = '/login';  // Redirect to login after signup
+                    window.location.href = '/login';
                 } else {
                     alert('Registration failed: ' + xhr.responseText);
                 }
             };
-            var data = JSON.stringify({
+
+            var data = {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
                 username: document.getElementById('username').value,
-                password: document.getElementById('password').value
-            });
-            xhr.send(data);
+                password: document.getElementById('password').value,
+                courses: selectedCourses ? getSelectedCourses() : []
+            };
+
+            xhr.send(JSON.stringify(data));
             return false;
+        }
+
+        function getSelectedCourses() {
+            var checkboxes = document.querySelectorAll('#coursesList input[type="checkbox"]:checked');
+            return Array.from(checkboxes).map(checkbox => checkbox.value);
+        }
+
+        function newStudentSignup() {
+            submitSignup(false);
         }
     </script>
 </body>

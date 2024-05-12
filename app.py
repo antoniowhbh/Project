@@ -1,11 +1,14 @@
 from flask import Flask, jsonify, request, render_template, session, redirect, url_for
 from flask_socketio import SocketIO, emit
+from werkzeug.utils import secure_filename
 import sqlite3
 import os
+import time
 from werkzeug.security import generate_password_hash, check_password_hash
 from chatbot import advisor_bot, course_scheduler
 from summarizer import setup_conversation_memory, add_messages_to_history
-import time
+from course_data import CourseManager  # Adjust according to your file structure
+from chatwithpdf import DocumentChatbot
 
 # Generate a random secret key
 secret_key = os.urandom(24)
@@ -16,6 +19,13 @@ socketio = SocketIO(app)
 
 history = []
 waiting_for_confirmation = {}  # Dictionary to keep track of user session states
+
+# Configuration for file uploads
+app.config['UPLOAD_FOLDER'] = 'uploaded_pdfs/'
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # Limit file size to 16MB
+
+# Ensure the upload folder exists
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 def get_db_connection():
     conn = sqlite3.connect('uniguide_student.db', timeout=10)
@@ -63,12 +73,12 @@ def login():
 
         if student and check_password_hash(student['Password'], password):
             session['logged_in'] = True
-            session['username'] = username  # Ensure this line sets the username in the session
+            session['username'] = username
             return jsonify({'status': 'success', 'message': 'Logged in successfully!', 'redirect': url_for('dashboard')})
         else:
             return jsonify({'status': 'failure', 'message': 'Incorrect credentials'}), 401
 
-@app.route('/dashboard', methods=['GET', 'POST'])
+@app.route('/dashboard', methods=['GET'])
 def dashboard():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
@@ -151,6 +161,13 @@ def signup():
 
         return jsonify({'status': 'success', 'message': 'Signup successful', 'redirect': url_for('login')})
 
+@app.route('/courses', methods=['GET'])
+def get_courses():
+    manager = CourseManager('course_descriptions.txt')  # Adjust the path accordingly
+    manager.load_courses()
+    course_titles = manager.get_course_names_and_titles()
+    return jsonify(course_titles)
+
 @app.route('/chat')
 def chat_index():
     return render_template('chat.html')
@@ -211,6 +228,68 @@ def save_conversation(data):
     execute_db_query(query, (student_id, summary))
 
     emit('response', {'data': 'Conversation saved successfully!'})
+
+@app.route('/upload', methods=['GET'])
+def upload_page():
+    return render_template('upload.html')
+
+@app.route('/upload', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file part'}), 400
+    file = request.files['file']
+    if file.filename == '':
+        return jsonify({'error': 'No selected file'}), 400
+    if file and allowed_file(file.filename):
+        filename = secure_filename(file.filename)
+        pdf_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(pdf_path)
+        session['pdf_path'] = pdf_path
+        return jsonify({'message': 'File uploaded successfully', 'path': pdf_path}), 200
+    return jsonify({'error': 'File not allowed'}), 400
+
+def allowed_file(filename):
+    ALLOWED_EXTENSIONS = {'pdf'}
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.get_json()
+    pdf_path = session.get('pdf_path')
+    user_message = data.get('message', '').strip()
+    if not user_message:
+        return jsonify({"error": "No message provided"}), 400
+    if not pdf_path or not os.path.exists(pdf_path):
+        return jsonify({"error": "Invalid PDF path"}), 400
+
+    chatbot = DocumentChatbot(model="gpt-3.5-turbo-0125", pdf_path=pdf_path)
+
+    response = chatbot.chat(user_message, [])
+    return jsonify({'response': response})
+
+@app.route('/download_notes')
+def download_notes():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT NoteContent FROM Notes WHERE StudentID = (SELECT StudentID FROM StudentLogins WHERE Username = ?)",
+                (session.get('username'),))
+    notes = cur.fetchall()
+    conn.close()
+
+    notes_content = [note['NoteContent'] for note in notes]
+    notes_file = os.path.join(app.config['UPLOAD_FOLDER'], f"{session.get('username')}_notes.txt")
+    with open(notes_file, 'w') as f:
+        for note in notes_content:
+            f.write(note + "\n")
+
+    return send_file(notes_file, as_attachment=True)
+
+@app.route('/faq', methods=['GET'])
+def faq():
+    return render_template('faq.html')
 
 if __name__ == '__main__':
     socketio.run(app, debug=True)
