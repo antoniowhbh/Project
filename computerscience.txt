@@ -1,0 +1,145 @@
+{
+  "BachelorOfScienceInComputerScience": {
+
+  "CoreRequirements": [
+    {"code": "CSC 212", "credits": 3, "prerequisites": []},
+    {"code": "CSC 213", "credits": 3, "prerequisites": ["CSC 212", "CSC 215"]},
+    {"code": "CSC 219", "credits": 3, "prerequisites": []},
+    {"code": "CSC 313", "credits": 3, "prerequisites": ["CSC 213", "CSC 215"]},
+    {"code": "MAT 211", "credits": 3, "prerequisites": []},
+    {"code": "MAT 213", "credits": 3, "prerequisites": []},
+    {"code": "MAT 215", "credits": 3, "prerequisites": []},
+    {"code": "MAT 224", "credits": 3, "prerequisites": ["MAT 213"]}
+  ],
+
+    "MajorRequirements": [
+      {"code": "CSC 311", "credits": 3, "prerequisites": ["CSC 213"]},
+      {"code": "CSC 312", "credits": 3, "prerequisites": ["CSC 213"]},
+      {"code": "CSC 316", "credits": 3, "prerequisites": ["CSC 212"]},
+      {"code": "CSC 323", "credits": 3, "prerequisites": ["CSC 212"]},
+      {"code": "CSC 325", "credits": 3, "prerequisites": ["CSC 212"]},
+      {"code": "CSC 413", "credits": 3, "prerequisites": ["CSC 313"]},
+      {"code": "CSC 414", "credits": 3, "prerequisites": ["CSC 313"]},
+      {"code": "CSC 423", "credits": 3, "prerequisites": ["CSC 313"]},
+      {"code": "CSC 425", "credits": 3, "prerequisites": ["CSC 325"]},
+      {"code": "CSC 426", "credits": 3, "prerequisites": ["CSC 325"]},
+      {"code": "CSC 432", "credits": 3, "prerequisites": ["CSC 313"]},
+      {"code": "CSC 480", "credits": 3, "prerequisites": ["Senior Standing"]},
+      {"code": "CSC 490", "credits": 3, "prerequisites": ["Senior Standing"]}
+    ],
+    "TechnicalElectiveOptions": [
+      {"code": "CSC 210", "credits": 3, "prerequisites": ["CSC 211"]},
+      {"code": "CSC 218", "credits": 3, "prerequisites": ["CSC 211"]},
+      {"code": "CSC 314", "credits": 3, "prerequisites": ["CSC 212"]},
+      {"code": "CSC 385", "credits": 3, "prerequisites": ["Junior Standing"]},
+      {"code": "CSC 387", "credits": 3, "prerequisites": ["CSC 212"]},
+      {"code": "CSC 388", "credits": 3, "prerequisites": ["CSC 212"]},
+      {"code": "CSC 456", "credits": 3, "prerequisites": ["Senior Standing"]},
+      {"code": "CSC 457", "credits": 3, "prerequisites": ["Senior Standing"]},
+      {"code": "CSC 463", "credits": 3, "prerequisites": ["Senior Standing"]},
+      {"code": "CSC 485", "credits": 3, "prerequisites": ["Senior Standing"]},
+      {"code": "MAT 326", "credits": 3, "prerequisites": ["MAT 224"]},
+      {"code": "STA 210", "credits": 3, "prerequisites": ["MAT 211"]}
+    ],
+    "LiberalArtsCurriculum": {
+      "TotalCredits": 27,
+      "Groups": [
+        {
+          "Group": 1,
+          "Credits": 3,
+          "Courses": [
+            {"code": "ARB 211", "credits": 3, "prerequisites": null},
+            {"code": "ARB 212", "credits": 3, "prerequisites": null},
+            {"code": "ARB 224", "credits": 3, "prerequisites": null},
+            {"code": "ARB 231", "credits": 3, "prerequisites": null},
+            {"code": "ARB 306", "credits": 3, "prerequisites": null}
+          ]
+        },
+        {
+          "Group": 2,
+          "Credits": 3,
+          "Courses": [
+            {"code": "REG 212", "credits": 3, "prerequisites": null},
+            {"code": "REG 213", "credits": 3, "prerequisites": null},
+            {"code": "REG 215", "credits": 3, "prerequisites": null},
+            {"code": "REG 313", "credits": 3, "prerequisites": null},
+            {"code": "REG 314", "credits": 3, "prerequisites": null}
+          ]
+        },
+        {
+          "Group": 3,
+          "Credits": 3,
+          "Courses": [{"code": "CSC 203", "credits": 3, "prerequisites": null}]
+        },
+        {
+          "Group": 4,
+          "Credits": 3,
+          "Courses": [
+            {"code": "ENS 202", "credits": 3, "prerequisites": null},
+            {"code": "FQM 200", "credits": 3, "prerequisites": null},
+            {"code": "POS 201", "credits": 3, "prerequisites": null},
+            {"code": "POS 209", "credits": 3, "prerequisites": null},
+            {"code": "POS 210", "credits": 3, "prerequisites": null},
+            {"code": "POS 240", "credits": 3, "prerequisites": null},
+            {"code": "POS 319", "credits": 3, "prerequisites": null}
+          ]
+        },
+        {
+          "Group": 5,
+          "Credits": 3,
+          "Courses": [
+            {"code": "ARP 215", "credits": 3, "prerequisites": null},
+            {"code": "AVF 315", "credits": 3, "prerequisites": null},
+            {"code": "COA 350", "credits": 3, "prerequisites": null},
+            {"code": "CSC 206", "credits": 3, "prerequisites": null},
+            {"code": "ECN 211", "credits": 3, "prerequisites": null},
+            {"code": "ECN 212", "credits": 3, "prerequisites": null},
+            {"code": "ENG 210", "credits": 3, "prerequisites": null},
+            {"code": "ENG 220", "credits": 3, "prerequisites": null},
+            {"code": "FAP 215", "credits": 3, "prerequisites": null},
+            {"code": "HIT 211", "credits": 3, "prerequisites": null},
+            {"code": "HTM 201", "credits": 3, "prerequisites": null},
+            {"code": "HTM 326", "credits": 3, "prerequisites": null},
+            {"code": "LIR 214", "credits": 3, "prerequisites": null},
+            {"code": "LIR 217", "credits": 3, "prerequisites": null},
+            {"code": "LIR 305", "credits": 3, "prerequisites": null},
+            {"code": "MGT 201", "credits": 3, "prerequisites": null},
+            {"code": "MRK 201", "credits": 3, "prerequisites": null},
+            {"code": "MUS 210", "credits": 3, "prerequisites": null},
+            {"code": "NTR 215", "credits": 3, "prerequisites": null},
+            {"code": "PHL 211", "credits": 3, "prerequisites": null},
+            {"code": "PHL 232", "credits": 3, "prerequisites": null},
+            {"code": "PHL 333", "credits": 3, "prerequisites": null},
+            {"code": "PHL 334", "credits": 3, "prerequisites": null},
+            {"code": "POS 225", "credits": 3, "prerequisites": null},
+            {"code": "PSL 201", "credits": 3, "prerequisites": null},
+            {"code": "SOL 201", "credits": 3, "prerequisites": null},
+            {"code": "SOL 316", "credits": 3, "prerequisites": null},
+            {"code": "SOL 322", "credits": 3, "prerequisites": null},
+            {"code": "SOL 323", "credits": 3, "prerequisites": null}
+          ]
+        },
+        {
+          "Group": 6,
+          "Credits": 3,
+          "Courses": [
+            {"code": "CSC 201", "credits": 3, "prerequisites": null},
+            {"code": "CSC 202", "credits": 3, "prerequisites": null},
+            {"code": "GIS 211", "credits": 3, "prerequisites": null},
+            {"code": "MAT 202", "credits": 3, "prerequisites": null},
+            {"code": "MIS 201", "credits": 3, "prerequisites": null}
+          ]
+        },
+        {
+          "Group": 7,
+          "Credits": 3,
+          "Courses": [
+            {"code": "AST 201", "credits": 3, "prerequisites": null},
+            {"code": "BIO 201", "credits": 3, "prerequisites": null},
+            {"code": "CHM 211", "credits": 3, "prerequisites": null}
+          ]
+        }
+      ]
+    }
+  }
+}

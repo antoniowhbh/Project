@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Chatbot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const socket = io();  // Connect to the server
+
+            socket.on('connect', function() {
+                console.log('Connected to the server.');
+            });
+
+            socket.on('after connect', function(msg) {
+                appendMessage(msg.data, 'system');
+            });
+
+            function sendMessage() {
+                const input = document.getElementById("messageInput").value;
+                if (input.trim() === '') return; // Prevent empty messages
+                appendMessage("You: " + input, 'user'); // Append user message
+                if (input.trim().toLowerCase() === "confirm registration") {
+                    socket.emit('confirm', {message: input});
+                } else {
+                    socket.emit('message', {message: input});
+                }
+                document.getElementById("messageInput").value = '';  // Clear the input after sending
+            }
+
+            socket.on('response', function(msg) {
+                appendFormattedResponse(msg.data); // Handles chatbot responses differently
+            });
+
+            socket.on('confirm', function(msg) {
+                appendMessage(msg.data, 'system');
+                createConfirmButtons();
+            });
+
+            function saveConversation() {
+                const student_id = 1;  // Example student ID, modify as required
+                socket.emit('save_conversation', {student_id: student_id});
+            }
+
+            document.getElementById("sendButton").onclick = sendMessage;
+            document.getElementById("saveButton").onclick = saveConversation;
+
+            // Add an event listener to detect the Enter keypress for message input
+            document.getElementById("messageInput").addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();  // Prevent the default "Enter" behavior
+                    sendMessage();  // Send the message
+                }
+            });
+
+            function appendMessage(message, sender) {
+                const chat = document.getElementById("chat");
+                const messageElement = document.createElement('div');
+                messageElement.classList.add(sender);
+                messageElement.innerHTML = message; // Use innerHTML to respect line breaks in plain text
+                chat.appendChild(messageElement);
+                chat.appendChild(document.createElement('br')); // Adds a line break after each message
+            }
+
+            function appendFormattedResponse(message) {
+                // Process the message to format it properly for HTML display
+                const chat = document.getElementById("chat");
+                const messageElement = document.createElement('div');
+                messageElement.classList.add('chatbot');
+                messageElement.innerHTML = message.replace(/(?:\r\n|\r|\n)/g, '<br>'); // Replace newlines with HTML breaks
+                chat.appendChild(messageElement);
+                chat.appendChild(document.createElement('br')); // Adds extra line breaks after response
+            }
+
+            function createConfirmButtons() {
+                const chat = document.getElementById("chat");
+                const confirmButton = document.createElement('button');
+                confirmButton.textContent = "Confirm";
+                confirmButton.onclick = function() {
+                    socket.emit('confirm', {message: "confirm"});
+                    confirmButton.remove(); // Remove buttons after clicking
+                    cancelButton.remove();
+                };
+
+                const cancelButton = document.createateElement('button');
+                cancelButton.textContent = "Cancel";
+                cancelButton.onclick = function() {
+                    socket.emit('confirm', {message: "cancel"});
+                    confirmButton.remove(); // Remove buttons after clicking
+                    cancelButton.remove();
+                };
+
+                chat.appendChild(confirmButton);
+                chat.appendChild(cancelButton);
+            }
+        });
+    </script>
+    <style>
+        #chat div.user { color: blue; font-weight: bold; }
+        #chat div.chatbot { color: green; }
+        #chat div.system { color: red; }
+        button { margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div id="chat"></div>
+    <input type="text" id="messageInput" placeholder="Type your message here...">
+    <button id="sendButton">Send</button>
+    <button id="saveButton">Save Conversation</button>
+</body>
+</html>

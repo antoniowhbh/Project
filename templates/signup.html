@@ -1,0 +1,41 @@
+<!-- templates/signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Page</title>
+</head>
+<body>
+    <h2>Signup</h2>
+    <form id="signupForm">
+        Name: <input type="text" id="name" required><br>
+        Email: <input type="email" id="email" required><br>
+        Username: <input type="text" id="username" required><br>
+        Password: <input type="password" id="password" required><br>
+        <button type="button" onclick="submitSignup()">Register</button>
+    </form>
+    <script>
+        function submitSignup() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/signup", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    alert('Registration successful!');
+                    window.location.href = '/login';  // Redirect to login after signup
+                } else {
+                    alert('Registration failed: ' + xhr.responseText);
+                }
+            };
+            var data = JSON.stringify({
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                username: document.getElementById('username').value,
+                password: document.getElementById('password').value
+            });
+            xhr.send(data);
+            return false;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,578 @@
+-----------------------------------------------------------------------------------------------------------------
+ARP 223: Arab-Islamic Civilization (3.0): 3 cr.
+Surveys the development and influence of Islamic civilization, with a focus on Arab contributions to culture and science. No prerequisites required. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 212: Fundamentals of Computer Programming II (3.0): 3 cr.
+Continues CSC 211, covering abstract data types, dynamic structures, recursion, and basic algorithms. Prerequisite: CSC 211. Available classes for this course:Section A - TTH 4:30-6:00, Staff, Seats taken: 6, Seats left: 22
+Section B - TTH 8:00-9:30, Staff, Seats taken: 11, Seats left: 17
+Section C - MWF 3:00-4:00, Staff, Seats taken: 16, Seats left: 12
+Section D - MWF 4:00-5:00, Staff, Seats taken: 4, Seats left: 24
+Section E - MWF 8:00-9:00, Staff, Seats taken: 4, Seats left: 24
+-----------------------------------------------------------------------------------------------------------------
+CSC 213: Computer Organization (3.0): 3 cr.
+Covers data representation, assembly organization, memory, I/O, and basic high-performance architecture. Prerequisite: CSC 212. Available classes for this course:Section A - MWF 1:00-2:00, Staff, Seats taken: 23, Seats left: 5
+Section B - TTH 1:30-3:00, Staff, Seats taken: 22, Seats left: 6
+Section C - MWF 9:00-10:00, Staff, Seats taken: 11, Seats left: 17
+-----------------------------------------------------------------------------------------------------------------
+CSC 231: Principles of Operating Systems (3.0): 3 cr.
+Introduces operating system principles such as process, memory, and file management. Prerequisite: CSC 213. Available classes for this course:Section A - TTH 9:30-11:00, Staff, Seats taken: 8, Seats left: 10
+-----------------------------------------------------------------------------------------------------------------
+CSC 277: Web Programming (3.0): 3 cr.
+Teaches fundamentals of web development using HTML, CSS, JavaScript, and server-side scripting. Prerequisite: CSC 212. Available classes for this course:Section A - MWF 2:00-3:00, Alexander Thomas, Seats taken: 6, Seats left: 12
+Section B - TTH 1:30-3:00, Alexander Thomas, Seats taken: 10, Seats left: 8
+-----------------------------------------------------------------------------------------------------------------
+CSC 278: Data Science and Big Data (3.0): 3 cr.
+Introduces data science and big data techniques, including processing, analysis, and visualization. Prerequisite: CSC 213. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 279: Cybersecurity Fundamentals (3.0): 3 cr.
+Covers basic cybersecurity, including cryptography, network security, and ethical hacking. Prerequisite: CSC 213. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 313: Data Structures and Algorithm Analysis (3.0): 3 cr.
+Advanced study in data structures and algorithm design and analysis, including various design strategies. Prerequisite: CSC 212. Available classes for this course:Section A - MWF 10:00-11:00, Paul Akiki, Seats taken: 30, Seats left: 0
+Section B - MWF 2:00-3:00, Paul Akiki, Seats taken: 31, Seats left: 0
+Section C - MWF 1:00-2:00, Paul Akiki, Seats taken: 29, Seats left: 1
+-----------------------------------------------------------------------------------------------------------------
+CSC 343: Database Systems (3.0): 3 cr.
+Focuses on database design, SQL, transaction management, and recovery processes. Prerequisite: CSC 213. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 375: Software Engineering (3.0): 3 cr.
+Introduces software engineering principles such as the software life cycle, modeling, design patterns, and project management. Prerequisite: CSC 212. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 379: Mobile Applications Development (3.0): 3 cr.
+Focuses on developing mobile applications for various platforms. Prerequisite: CSC 277. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 412: Advanced Computer Graphics (3.0): 3 cr.
+Advanced study in computer graphics, covering 3D modeling, rendering, and animation. Prerequisite: CSC 313. Available classes for this course:Section A - MWF 9:00-10:00, Staff, Seats taken: 23, Seats left: 12
+-----------------------------------------------------------------------------------------------------------------
+CSC 422: Machine Learning (3.0): 3 cr.
+Introduces machine learning algorithms and their practical applications. Prerequisite: CSC 313. Available classes for this course:Section A - MWF 4:00-5:00, Staff, Seats taken: 13, Seats left: 22
+-----------------------------------------------------------------------------------------------------------------
+CSC 430: Human-Computer Interaction (3.0): 3 cr.
+Examines user interface design, user experience, and usability testing. Prerequisite: CSC 313. Available classes for this course:Section A - MWF 10:00-11:00, Alexander Thomas, Seats taken: 11, Seats left: 24
+-----------------------------------------------------------------------------------------------------------------
+CSC 433: Internet of Things (3.0): 3 cr.
+Introduces concepts, technologies, and applications of the Internet of Things (IoT). Prerequisite: CSC 343. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 450: Artificial Intelligence (3.0): 3 cr.
+Covers foundational concepts and applications of artificial intelligence, including search algorithms and machine learning. Prerequisite: CSC 313. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 480: Special Topics in Computer Science (3.0): 3 cr.
+Explores varying topics of special interest in computer science. Prerequisite: Department approval. Available classes for this course:Section A - T.B.A., Staff, Seats taken: 26, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 490: Computer Science Capstone Project (3.0): 3 cr.
+Capstone project that culminates the computer science program with a significant project. Prerequisite: Senior standing and department approval. Available classes for this course:Section A - T.B.A., Paul Akiki, Seats taken: 12, Seats left: 0
+Section B - T.B.A., Maya Samaha Rupert, Seats taken: 10, Seats left: 0
+Section C - T.B.A., Nazir Hawi, Seats taken: 9, Seats left: 1
+Section D - T.B.A., Hoda Maalouf, Seats taken: 10, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+FAP 211: Introduction to Fine Arts (3.0): 3 cr.
+An introductory course providing an appreciation of visual arts, music, and theater. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MAT 211: Introduction to Linear Algebra (3.0): 3 cr.
+Covers linear equations, matrices, determinants, vector spaces, transformations, eigenvalues, and eigenvectors. Prerequisite: MAT 112 or equivalent. Available classes for this course:Section A - MWF 11:00-12:00, Holem Saliba, Seats taken: 35, Seats left: 0
+Section B - TTH 11:00-12:30, Holem Saliba, Seats taken: 27, Seats left: 8
+Section C - MWF 9:00-10:00, Staff, Seats taken: 8, Seats left: 27
+-----------------------------------------------------------------------------------------------------------------
+MAT 214: Differential Equations (3.0): 3 cr.
+Topics include first-order and linear differential equations, numerical methods, and modeling. Prerequisite: MAT 113 or equivalent. Available classes for this course:Section A - MWF 1:00-2:00, Staff, Seats taken: 19, Seats left: 16
+-----------------------------------------------------------------------------------------------------------------
+ACO 201: Principles of Accounting I (3.0): 3 cr.
+Introduces financial accounting basics, focusing on financial statement construction and interpretation, and revenue and expense recognition. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 202: Computers for Visual Arts (3.0): 3 cr.
+Introduces computer graphics concepts and software for visual arts projects, covering 2D image manipulation and video editing. No prerequisites. Available classes for this course:Section A - TTH 3:00-4:30, Alexander Thomas, Seats taken: 19, Seats left: 0
+Section B - MWF 1:00-2:00, Staff, Seats taken: 19, Seats left: 0
+Section C - TTH 11:00-12:30, Staff, Seats taken: 17, Seats left: 1
+Section D - MWF 9:00-10:00, Staff, Seats taken: 18, Seats left: 0
+Section E - TTH 9:30-11:00, Staff, Seats taken: 18, Seats left: 0
+Section F - TTH 4:30-6:00, Staff, Seats taken: 18, Seats left: 0
+Section G - MWF 8:00-9:00, Staff, Seats taken: 16, Seats left: 2
+Section H - TTH 8:00-9:30, Staff, Seats taken: 18, Seats left: 0
+Section I - MWF 11:00-12:00, Staff, Seats taken: 18, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 210: Fundamentals of Computer Programming with Python (3.0): 3 cr.
+Introduction to Python programming, covering data types, control structures, basic data structures, and object-oriented concepts. No prerequisites. Available classes for this course:Section A - MWF 10:00-11:00, Staff, Seats taken: 22, Seats left: 6
+Section B - TTH 11:00-12:30, Staff, Seats taken: 20, Seats left: 8
+-----------------------------------------------------------------------------------------------------------------
+CSC 213: Program Design and Data Abstraction II (3.0): 3 cr.
+Explores advanced object-oriented software design in C++, including encapsulation, inheritance, polymorphism, and file processing. Prerequisite: CSC 212 or CSC 215. Available classes for this course:Section A - MWF 1:00-2:00, Staff, Seats taken: 23, Seats left: 5
+Section B - TTH 1:30-3:00, Staff, Seats taken: 22, Seats left: 6
+Section C - MWF 9:00-10:00, Staff, Seats taken: 11, Seats left: 17
+-----------------------------------------------------------------------------------------------------------------
+CSC 215: Fundamentals of Programming (3.0): 3 cr.
+Teaches structured and object-oriented programming in C++, covering control structures, data types, and file processing. No prerequisites. Available classes for this course:Section A - TTH 8:00-9:30, Staff, Seats taken: 28, Seats left: 0
+Section B - MWF 3:00-4:00, Staff, Seats taken: 24, Seats left: 4
+-----------------------------------------------------------------------------------------------------------------
+CSC 216: Computer Programming I (3.0): 3 cr.
+Introduction to Visual Basic.NET programming, focusing on event-driven programming and basic control structures. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 217: Computer Programming II (3.0): 3 cr.
+Advances programming skills in topics like I/O, object-oriented design, and data manipulation using LINQ. Prerequisite: CSC 216 or MIS 216. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 218: Principles of Communication Systems (3.0): 3 cr.
+Introduces principles of data communications and computer networks, covering basic transmission, data encoding, and TCP/IP. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 219: Digital Computer Fundamentals (3.0): 3 cr.
+Focuses on logic design and digital circuits, including flip-flops, counters, and multiplexers. No prerequisites. Available classes for this course:Section A - MWF 11:00-12:00, Ruwayda Takchi, Seats taken: 13, Seats left: 22
+Section B - TTH 9:30-11:00, Staff, Seats taken: 17, Seats left: 18
+-----------------------------------------------------------------------------------------------------------------
+CSC 226: Introduction to Database (3.0): 3 cr.
+Teaches database system design and implementation, emphasizing the importance of database management. No prerequisites. Available classes for this course:Section A - TTH 1:30-3:00, Maya Samaha Rupert, Seats taken: 16, Seats left: 12
+-----------------------------------------------------------------------------------------------------------------
+CSC 231: Multimedia Applications (3.0): 3 cr.
+Introduces digital multimedia concepts and tools, focusing on game and interactive media development. Prerequisite: CSC 213 or CSC 215. Available classes for this course:Section A - TTH 9:30-11:00, Staff, Seats taken: 8, Seats left: 10
+-----------------------------------------------------------------------------------------------------------------
+CSC 273: Workshop in Computer Aided Architectural Design (3.0): 3 cr.
+Applies CAD concepts to develop architectural projects. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 277: Software Packages for Computer Graphics I (3.0): 3 cr
+Introduces 3D Studio Max including modeling tools, shaders, textures, lighting, rendering, and animation. No prerequisites. Available classes for this course:Section A - MWF 2:00-3:00, Alexander Thomas, Seats taken: 6, Seats left: 12
+Section B - TTH 1:30-3:00, Alexander Thomas, Seats taken: 10, Seats left: 8
+-----------------------------------------------------------------------------------------------------------------
+CSC 278: Software Packages for Computer Graphics II (3.0): 3 cr
+Teaches graphics and animation using Autodesk Maya, including hands-on practice and lab time to create initial 3D models and animations. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 279: Software Packages for Computer Graphics III (3.0): 3 cr
+Focuses on training with third-party software or plugins for major applications like Autodesk 3D Studio Max and Maya. Prerequisite: CSC 277. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 301: Management Information Systems (3.0): 3 cr
+Introduces information technologies and their strategic implications, covering data management, network infrastructure, and security. Prerequisites: CSC 210, CSC 212, or CSC 216. Available classes for this course:Section A - TTH 3:00-4:30, Staff, Seats taken: 9, Seats left: 26
+-----------------------------------------------------------------------------------------------------------------
+CSC 305: System Analysis and Design (3.0): 3 cr
+Covers structured analysis, object-oriented concepts, and agile methods in systems design, plus project management techniques. Prerequisite: CSC 226 or equivalent. Available classes for this course:Section A - TTH 8:00-9:30, Victor Sawma, Seats taken: 16, Seats left: 19
+-----------------------------------------------------------------------------------------------------------------
+CSC 306: Web Design (3.0): 3 cr
+Covers web design fundamentals including HTML, CSS, JavaScript, JQuery, and SEO among others. Prerequisites: CSC 210, CSC 212, or CSC 216. Available classes for this course:Section A - TTH 4:30-6:00, Staff, Seats taken: 11, Seats left: 17
+-----------------------------------------------------------------------------------------------------------------
+CSC 308: Data Science Foundations (3.0): 3 cr
+Introduces data science fundamentals, focusing on data acquisition, cleaning, and statistical analysis methods. Prerequisites: CSC 210, CSC 212, CSC 215, or CSC 216. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 310: Data Visualization (3.0): 3 cr
+Teaches data visualization techniques, including designing effective and interactive visualizations with modern tools. Prerequisites: CSC 210, CSC 212, CSC 215, or CSC 216. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 316: Fundamentals of Computer Security (3.0): 3 cr
+Covers computer security, including encryption, program, network, and web security. Prerequisites: CSC 213, CSC 215, CSC 217, Junior Standing, or Department Approval. Available classes for this course:Section A - MWF 10:00-11:00, Victor Sawma, Seats taken: 36, Seats left: 0
+Section B - TTH 9:30-11:00, Victor Sawma, Seats taken: 35, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 318: Geographic Information Systems (3.0): 3 cr
+Introduces Geographic Information Systems (GIS) science and technologies. Suitable for students pursuing GIS minors or majors. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 320: Advanced Topics in Computer Science (3.0): 3 cr
+No description provided for this course. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 323: Object Oriented Design (3.0): 3 cr
+Emphasizes object-oriented programming, modeling, and design for high-quality software. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course:Section A - MWF 2:00-3:00, Pierre Antoine Akiki, Seats taken: 28, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 325: Analysis of Algorithms (3.0): 3 cr
+Focuses on algorithm design and analysis using mathematical tools for estimating running times. Prerequisite: CSC 313. Available classes for this course:Section A - MWF 3:00-4:00, Staff, Seats taken: 26, Seats left: 9
+-----------------------------------------------------------------------------------------------------------------
+CSC 374: 3D Simulation Packages (3.0): 3 cr
+Introduces leading simulation packages for fluid dynamics and realistic phenomena rendering, integrated with 3D packages. Prerequisite: CSC 277. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 377: Fundamentals of 3D Sculpting and Simulation (3.0): 3 cr
+Covers realistic clothing creation for 3D characters and 3D sculpting in Zbrush for animation or game development assets. No prerequisites. Available classes for this course:Section A - MWF 11:00-12:00, Staff, Seats taken: 17, Seats left: 1
+-----------------------------------------------------------------------------------------------------------------
+CSC 385: Internet Computing (3.0): 3 cr
+Introduction to backend Internet programming including HTML, MySQL, Apache, PHP, MVC frameworks, and more. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course:Section A - MWF 8:00-9:00, Victor Sawma, Seats taken: 14, Seats left: 16
+-----------------------------------------------------------------------------------------------------------------
+CSC 387: Advanced Programming Using Java (3.0): 3 cr
+Covers Java programming including interfaces, threads, JDBC, client/server architecture, servlets, and JSP. Prerequisites: CSC 213 or CSC 215. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 388: Mobile Application Development (3.0): 3 cr
+Explores mobile app development using current languages and methods, covering both client-side and server-side development. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 405: Systems Integration (3.0): 3 cr
+Covers integration of different systems and software, focusing on planning, developing, and managing enterprise system integrations. Topics include Service-Oriented Architecture. Prerequisites: CSC 213, CSC 215, or CSC 305. Available classes for this course:Section A - TTH 4:30-6:00, Staff, Seats taken: 6, Seats left: 24
+-----------------------------------------------------------------------------------------------------------------
+CSC 412: Introduction to Computer Graphics (3.0): 3 cr
+Covers basics of computer graphics, including raster graphics, Bresenham's algorithm, and advanced topics like antialiasing and hidden surfaces. Prerequisites: CSC 213, CSC 215, or CSC 320. Available classes for this course:Section A - MWF 9:00-10:00, Staff, Seats taken: 23, Seats left: 12
+-----------------------------------------------------------------------------------------------------------------
+CSC 417: Advanced Programming Technologies (3.0): 3 cr
+Teaches advanced programming technologies for developing applications using file processing, databases, web applications, and mobile applications. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 423: Software Engineering (3.0): 3 cr
+Provides an overview of software engineering, covering various stages of the software development lifecycle and emphasizing a systematic approach. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course:Section A - MWF 11:00-12:00, Pierre Antoine Akiki, Seats taken: 30, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 425: Data Communications and Computer Networks (3.0): 3 cr
+Covers the design and analysis of computer networks and communication systems, focusing on technologies, protocols, and performance. Prerequisites: CSC 218, CSC 312, or equivalent. Available classes for this course:Section A - MWF 9:00-10:00, Hoda Maalouf, Seats taken: 35, Seats left: 0
+Section B - MWF 11:00-12:00, Hoda Maalouf, Seats taken: 9, Seats left: 26
+-----------------------------------------------------------------------------------------------------------------
+CSC 426: Principles of Database Systems (3.0): 3 cr
+Covers database design and implementation, teaching students to create and manage databases using a DBMS and implement queries. Prerequisites: CSC 213, CSC 215, CSC 217, or department approval. Available classes for this course:Section A - MWF 1:00-2:00, Pierre Antoine Akiki, Seats taken: 31, Seats left: 0
+Section B - TTH 1:30-3:00, Staff, Seats taken: 8, Seats left: 22
+-----------------------------------------------------------------------------------------------------------------
+CSC 432: Introduction to Artificial Intelligence (3.0): 3 cr
+Introduces AI concepts including intelligent agents, search methods, machine learning, and probabilistic reasoning. Corequisite: CSC 313. Available classes for this course:Section A - MWF 3:00-4:00, Staff, Seats taken: 29, Seats left: 6
+-----------------------------------------------------------------------------------------------------------------
+CSC 435: Operating Systems and Networks (3.0): 3 cr
+Provides an overview of operating systems and networks, including Unix, computer organization, and TCP/IP networking from an IT manager's perspective. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 446: Applied Database Systems (3.0): 3 cr
+Covers database architecture, design, real-world implementation, and security, focusing on creating complex database objects using a DBMS. Prerequisites: CSC 226 or CSC 426. Available classes for this course:Section A - TTH 11:00-12:30, Staff, Seats taken: 7, Seats left: 23
+-----------------------------------------------------------------------------------------------------------------
+CSC 456: Data Mining (3.0): 3 cr
+Teaches Data Warehousing and Data Mining methodologies, including data types, preprocessing, OLAP, classification, association, and clustering analysis. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 457: Big Data Analytics (3.0): 3 cr
+Introduces big data analytics, covering technologies, tools, and systems, with a focus on data mining and machine learning for large data sets. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 463: Advanced Software Development (3.0): 3 cr
+Focuses on developing applications using Visual C# and the .NET Framework, emphasizing object-oriented and event-driven programming. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 472: Advanced After Effects (3.0): 3 cr
+Enhances skills in After Effects for advanced compositing, post-production, motion design, and 2D animation. Prerequisites: CSC 202 or CSC 278. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 480: Internship (1.0): 1 cr
+Internship in an industrial setting to integrate theory and practice, supervised by faculty and a company administrator, requiring a final presentation and report. Prerequisite: Junior Standing. Available classes for this course:Section A - T.B.A., Staff, Seats taken: 26, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 485: Seminar (3.0): 3 cr
+Designed to explore computer science topics not covered in the curriculum through focused study. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 490: Senior Study (3.0): 3 cr
+Capstone project involving research, design, and implementation of prototype software, supervised by faculty, with a focus on design, ethics, and societal impact. Senior Standing required. Available classes for this course:Section A - T.B.A., Paul Akiki, Seats taken: 12, Seats left: 0
+Section B - T.B.A., Maya Samaha Rupert, Seats taken: 10, Seats left: 0
+Section C - T.B.A., Nazir Hawi, Seats taken: 9, Seats left: 1
+Section D - T.B.A., Hoda Maalouf, Seats taken: 10, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+ECN 211: Principles of Microeconomics (3.0): 3 cr
+Generally covers the fundamentals of microeconomics including market supply and demand, consumer behavior, producer behavior, and market structures for resource allocation. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+ECN 212: Principles of Macroeconomics (3.0): 3 cr
+Introduces macroeconomic concepts and issues, including the impacts of economic shocks like the Great Depression and modern economic practices on standards of living, as well as unemployment and inflation. Discusses fiscal and monetary policies for addressing these issues. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 211: Principles of Geographical Information Sciences (3.0): 3 cr
+An introductory course to GIS, covering data structures, information topology, database organization, map basics, cartography, Remote Sensing, and GPS. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 311: Desktop GIS (3.0): 3 cr
+Focuses on geo-database design, integration, and management of geographic data. Prerequisites: GIS 211 or CSC 318. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 321: Spatial Analysis and Modeling (3.0): 3 cr
+Covers various techniques in spatial analysis and modeling including vector analysis, geoprocessing, network and 3D analysis, and hydrology. Prerequisite: GIS 211. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 331: Implementations of GIS (3.0): 3 cr
+Focuses on automating geoprocessing and spatial analysis in ArcGIS using Python scripts and the ArcPy library. Prerequisites: CSC 217 and GIS 311. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 352: Theories of Remote Sensing (3.0): 3 cr
+Introduces Remote Sensing concepts, physics, air photo interpretation, photogrammetry, sensors, platforms, digital image processing, and applications. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 441: Cartography, Geodesy, and GPS (3.0): 3 cr
+Introduces cartography, geodesy, map projections, scaling, referencing, cartographic design, and GPS data collection and design. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 452: Advanced Remote Sensing (3.0): 3 cr
+Advanced course in Remote Sensing focusing on data collection, processing, image enhancement, classification, and digital representation of relief. Prerequisite: GIS 352. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+GIS 490: Senior Project (3.0): 3 cr
+Capstone project in GIS, requiring a faculty-supervised project with an evaluation based on the project outcome and an oral presentation. Prerequisite: Senior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MAT 205: Mathematics for Business and Economics II (3.0): 3 cr
+Covers accumulation, discounting, interest rates, annuities, amortization, and bonds. Prerequisite: Sophomore Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MAT 214: Applied Linear Algebra (3.0): 3 cr
+Introduces Linear Algebra focusing on linear systems, matrices, determinants, eigenvalues, and eigenvectors with applications. Prerequisite: Sophomore Standing. Available classes for this course:Section A - MWF 1:00-2:00, Staff, Seats taken: 19, Seats left: 16
+-----------------------------------------------------------------------------------------------------------------
+MGT 201: Fundamentals of Management (3.0): 3 cr
+Introduces basic management theories and processes including planning, organizing, staffing, directing, and controlling, alongside organizational structure and human resource utilization. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MGT 425: Quantitative Techniques for Management (3.0): 3 cr
+Covers quantitative problem-solving in management using mathematical methods like linear programming, decision theory, and simulations. Prerequisite: Senior Standing. Available classes for this course:Section A - MWF 9:00-10:00, Atef Harb, Seats taken: 14, Seats left: 21
+-----------------------------------------------------------------------------------------------------------------
+MGT 429: Operations Management (3.0): 3 cr
+Introduces operations management concepts and techniques, including forecasting, production planning, quality control, and inventory systems. Prerequisite: Senior Standing. Available classes for this course:Section A - MWF 10:00-11:00, Atef Harb, Seats taken: 16, Seats left: 9
+-----------------------------------------------------------------------------------------------------------------
+MGT 455: Digital Business (3.0): 3 cr
+Discusses digital business fundamentals with a focus on e-commerce and e-marketing innovations, performance enhancement, and service delivery in digital transformations. Available classes for this course:Section A - TTH 3:00-4:30, Marwan Azouri, Seats taken: 16, Seats left: 9
+-----------------------------------------------------------------------------------------------------------------
+MIS 333: Business Intelligence (3.0): 3 cr
+Examines information systems supporting decision-making, including DSS, Data Warehouses, and Expert Systems. Prerequisites: CSC 226 or CSC 426. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MIS 345: Data Security and Network Administration (3.0): 3 cr
+Focuses on IT security management, including protocols, standards, and practices for business continuity and disaster recovery. Prerequisites: MIS 310 or CSC 301. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MIS 431: Enterprise Computing Systems (3.0): 3 cr
+Examines strategic use of enterprise-wide systems to transition from functional to process-focused organizational structures. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MIS 434: Project Management for Information System (3.0): 3 cr
+Covers management of IS projects, emphasizing project formulation, scope design, and development planning. Prerequisites: MIS 420 or CSC 305. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MIS 442: Knowledge Management (3.0): 3 cr
+Focuses on managing organizational knowledge, covering knowledge creation, transfer, KM strategies, and CRM & SCM integration. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MRK 201: Fundamentals of Marketing (3.0): 3 cr
+Introduces marketing concepts in various environments, covering behavior patterns, segmentation, product development, pricing, promotion, and distribution strategies. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+STA 206: Applied Statistics for Business and Economics I (3.0): 3 cr
+Covers descriptive statistics, probability, and discrete probability distributions using statistical software. Prerequisite: Sophomore Standing. Available classes for this course:Section A - TTH 9:30-11:00, Holem Saliba, Seats taken: 0, Seats left: 35
+-----------------------------------------------------------------------------------------------------------------
+STA 207: Applied Statistics for Business and Economics II (3.0): 3 cr
+Expands on inferential statistics, including population mean and variance inference, design of experiments, and regression analysis using statistical software. Prerequisite: STA 206. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+STA 210: Statistics for Business and Economics (3.0): 3 cr
+Focuses on descriptive and inferential statistics, probability laws, hypothesis testing, and regression analysis using statistical software. Prerequisite: Sophomore Standing. Available classes for this course:Section A - TTH 9:30-11:00, Holem Saliba, Seats taken: 19, Seats left: 16
+-----------------------------------------------------------------------------------------------------------------
+AST 201: Discovering Astronomy (3.0): 3 cr
+A non-calculus-based introduction to astronomy, covering the solar system, stellar evolution, galaxies, and cosmology. Includes an observational night session. Available classes for this course:Section A - MWF 2:00-3:00, Bassem Sabra, Seats taken: 22, Seats left: 23
+-----------------------------------------------------------------------------------------------------------------
+BIO 201: Your Body in Action (3.0): 3 cr
+A balanced introduction to human physiology, integrating clinical and technological applications. Covers wellness and aging. Available classes for this course:Section A - TTH 11:00-12:30, Staff, Seats taken: 4, Seats left: 41
+-----------------------------------------------------------------------------------------------------------------
+CHM 211: Principles of Chemistry (3.0): 3 cr
+Covers chemical nomenclature, stoichiometry, atomic theory, Lewis structures, VSEPR, intermolecular forces, and more. Intended for science and engineering students. Available classes for this course:Section A - MWF 10:00-11:00, Layla Badr, Seats taken: 9, Seats left: 36
+Section B - TTH 9:30-11:00, Staff, Seats taken: 13, Seats left: 32
+Section C - TTH 1:30-3:00, Staff, Seats taken: 5, Seats left: 40
+-----------------------------------------------------------------------------------------------------------------
+CSC 201: Introduction to Computers (3.0): 3 cr
+Provides a broad view of computer science fundamentals, covering hardware, software, the internet, and security, along with basic data management and office applications. Available classes for this course:Section A - MWF 5:00-6:00, Staff, Seats taken: 4, Seats left: 26
+Section B - TTH 9:30-11:00, Staff, Seats taken: 17, Seats left: 13
+Section C - MWF 8:00-9:00, Staff, Seats taken: 12, Seats left: 18
+Section D - TTH 1:30-3:00, Staff, Seats taken: 17, Seats left: 13
+Section E - TTH 11:00-12:30, Staff, Seats taken: 25, Seats left: 5
+-----------------------------------------------------------------------------------------------------------------
+CSC 202: Computers for Visual Arts (3.0): 3 cr
+Introduces computer graphics basics and advanced software packages for visual arts projects, including 2D image manipulation and video editing. Available classes for this course:Section A - TTH 3:00-4:30, Alexander Thomas, Seats taken: 19, Seats left: 0
+Section B - MWF 1:00-2:00, Staff, Seats taken: 19, Seats left: 0
+Section C - TTH 11:00-12:30, Staff, Seats taken: 17, Seats left: 1
+Section D - MWF 9:00-10:00, Staff, Seats taken: 18, Seats left: 0
+Section E - TTH 9:30-11:00, Staff, Seats taken: 18, Seats left: 0
+Section F - TTH 4:30-6:00, Staff, Seats taken: 18, Seats left: 0
+Section G - MWF 8:00-9:00, Staff, Seats taken: 16, Seats left: 2
+Section H - TTH 8:00-9:30, Staff, Seats taken: 18, Seats left: 0
+Section I - MWF 11:00-12:00, Staff, Seats taken: 18, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 210: Fundamentals of Computer Programming with Python (3.0): 3 cr
+Introduces programming with Python, covering data types, control structures, and basic data structures. Also covers object-oriented programming and the software development process. Prerequisite: Sophomore Standing. Available classes for this course:Section A - MWF 10:00-11:00, Staff, Seats taken: 22, Seats left: 6
+Section B - TTH 11:00-12:30, Staff, Seats taken: 20, Seats left: 8
+-----------------------------------------------------------------------------------------------------------------
+CSC 213: Program Design and Data Abstraction II (3.0): 3 cr
+Continues object-oriented software design in C++, covering data abstraction, inheritance, polymorphism, and file processing. Prerequisites: CSC 212 or CSC 215. Available classes for this course:Section A - MWF 1:00-2:00, Staff, Seats taken: 23, Seats left: 5
+Section B - TTH 1:30-3:00, Staff, Seats taken: 22, Seats left: 6
+Section C - MWF 9:00-10:00, Staff, Seats taken: 11, Seats left: 17
+-----------------------------------------------------------------------------------------------------------------
+CSC 219: Digital Computer Fundamentals (3.0): 3 cr
+Covers logic design and the design of digital circuits, including flip-flops, counters, and multiplexers. No prerequisites. Available classes for this course:Section A - MWF 11:00-12:00, Ruwayda Takchi, Seats taken: 13, Seats left: 22
+Section B - TTH 9:30-11:00, Staff, Seats taken: 17, Seats left: 18
+-----------------------------------------------------------------------------------------------------------------
+CSC 301: Management Information Systems (3.0): 3 cr
+Introduces information technology fundamentals and strategic IT management, covering data management, networking, cloud technologies, and information systems security. Prerequisites: CSC 210, CSC 212, or CSC 216. Available classes for this course:Section A - TTH 3:00-4:30, Staff, Seats taken: 9, Seats left: 26
+-----------------------------------------------------------------------------------------------------------------
+CSC 305: System Analysis and Design (3.0): 3 cr
+Covers structured and agile methods in systems analysis and design, including process modeling and project management techniques. Prerequisites: CSC 226 or equivalent. Available classes for this course:Section A - TTH 8:00-9:30, Victor Sawma, Seats taken: 16, Seats left: 19
+-----------------------------------------------------------------------------------------------------------------
+CSC 306: Web Design (3.0): 3 cr
+Teaches web design basics at the user interface level, covering HTML, CSS, JavaScript, JQuery, and SEO among other topics. Prerequisites: CSC 210, CSC 212, or CSC 216. Available classes for this course:Section A - TTH 4:30-6:00, Staff, Seats taken: 11, Seats left: 17
+-----------------------------------------------------------------------------------------------------------------
+CSC 311: Theory of Computation (3.0): 3 cr
+Explores computation limits using finite automata, pushdown automata, and Turing machines, including undecidability and computational complexity. Prerequisites: CSC 313, MAT 211. Available classes for this course:Section A - MWF 4:00-5:00, Staff, Seats taken: 27, Seats left: 8
+-----------------------------------------------------------------------------------------------------------------
+CSC 312: Computer Architecture (3.0): 3 cr
+Covers the structure and behavior of computer systems, including MIPS, floating-point operations, pipelining, and parallel computing architectures. Prerequisites: CSC 219 or EEN 220. Available classes for this course:Section A - MWF 8:00-9:00, Staff, Seats taken: 18, Seats left: 17
+Section B - MWF 9:00-10:00, Staff, Seats taken: 36, Seats left: 0
+Section C - MWF 10:00-11:00, Staff, Seats taken: 34, Seats left: 1
+-----------------------------------------------------------------------------------------------------------------
+CSC 313: Data Structures (3.0): 3 cr
+Covers data structures with a focus on complexity analysis, including linked lists, trees, hashing, and graph algorithms. Prerequisites: CSC 213 or CSC 215. Available classes for this course:Section A - MWF 10:00-11:00, Paul Akiki, Seats taken: 30, Seats left: 0
+Section B - MWF 2:00-3:00, Paul Akiki, Seats taken: 31, Seats left: 0
+Section C - MWF 1:00-2:00, Paul Akiki, Seats taken: 29, Seats left: 1
+-----------------------------------------------------------------------------------------------------------------
+CSC 314: Programming Languages (3.0): 3 cr
+A comparative study of programming languages with a focus on learning ANSI Standard C. Prerequisite: CSC 212. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 316: Fundamentals of Computer Security (3.0): 3 cr
+Covers core concepts of computer security, including encryption, and security in various domains such as networks and databases. Prerequisites: CSC 213, CSC 215, or CSC 217, or Junior Standing or Department Approval. Available classes for this course:Section A - MWF 10:00-11:00, Victor Sawma, Seats taken: 36, Seats left: 0
+Section B - TTH 9:30-11:00, Victor Sawma, Seats taken: 35, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 317: Information Assurance and Security (3.0): 3 cr
+Introduces the fundamentals of information assurance, focusing on risk analysis, threat evaluation, security planning, and implementation of security measures. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 318: Geographic Information Systems (3.0): 3 cr
+An introductory course to Geographic Information Systems (GIS), exploring its science and related technologies. Suitable for students aiming for a minor or major in GIS. No prerequisites. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 323: Object Oriented Design (3.0): 3 cr
+Focuses on object-oriented programming, modeling, and design principles to develop high-quality software applications for real-world problems. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course:Section A - MWF 2:00-3:00, Pierre Antoine Akiki, Seats taken: 28, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 325: Analysis of Algorithms (3.0): 3 cr
+Studies algorithm design and analysis using mathematical tools for efficiency, including strategies like greedy, divide-and-conquer, and dynamic programming. Covers NP-complete problems. Prerequisite: CSC 313. Available classes for this course:Section A - MWF 3:00-4:00, Staff, Seats taken: 26, Seats left: 9
+-----------------------------------------------------------------------------------------------------------------
+CSC 345: Fundamentals of Computer Network Management (3.0): 3 cr
+Covers basic network management concepts and protocols, focusing on SNMP and TCP/IP models, with real-time traffic analysis. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 385: Internet Computing (3.0): 3 cr
+Introduces backend Internet programming including HTML, MySQL, Apache, PHP, and MVC frameworks. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course:Section A - MWF 8:00-9:00, Victor Sawma, Seats taken: 14, Seats left: 16
+-----------------------------------------------------------------------------------------------------------------
+CSC 387: Advanced Programming Using Java (3.0): 3 cr
+Advanced Java programming covering C++ to Java transition, applets, threading, JDBC, client/server architecture, servlets, and JSP. Prerequisites: CSC 213 or CSC 215. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 388: Mobile Application Development (3.0): 3 cr
+Explores mobile app development using modern languages and covers both frontend and backend development aspects. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 405: Systems Integration (3.0): 3 cr
+Teaches the integration of different software systems, focusing on planning, development, and management using Service-Oriented Architecture. Prerequisites: CSC 213, CSC 215, or CSC 305. Available classes for this course:Section A - TTH 4:30-6:00, Staff, Seats taken: 6, Seats left: 24
+-----------------------------------------------------------------------------------------------------------------
+CSC 412: Introduction to Computer Graphics (3.0): 3 cr
+Covers fundamentals of computer graphics including raster graphics, algorithms for rendering, and techniques for handling visibility and texturing. Prerequisites: CSC 213, CSC 215, or CSC 320. Available classes for this course:Section A - MWF 9:00-10:00, Staff, Seats taken: 23, Seats left: 12
+-----------------------------------------------------------------------------------------------------------------
+CSC 413: Parallel and Distributed Computing (3.0): 3 cr
+Introduces parallel and distributed computing, covering concepts like GPU computing, message passing, mapreduce, and performance metrics. Prerequisite: CSC 313. Available classes for this course:Section A - MWF 11:00-12:00, Paul Akiki, Seats taken: 23, Seats left: 12
+-----------------------------------------------------------------------------------------------------------------
+CSC 414: Applied Operating Systems (3.0): 3 cr
+Focuses on core concepts of modern operating systems including process management, memory handling, and file systems. Uses contemporary systems for illustration. Prerequisites: CSC 312 or EEN 323. Available classes for this course:Section A - TTH 8:00-9:30, Staff, Seats taken: 25, Seats left: 10
+-----------------------------------------------------------------------------------------------------------------
+CSC 417: Advanced Programming Technologies (3.0): 3 cr
+Guides students in advanced programming technologies for application development, covering data handling, ADO.NET, ASP.NET, and mobile development. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 422: Introduction to Image Processing (3.0): 3 cr
+Introduces digital image processing techniques, covering topics from image representation to advanced filtering and segmentation. Prerequisites: CSC 213, CSC 215, or CSC 220. Available classes for this course:Section A - MWF 4:00-5:00, Staff, Seats taken: 13, Seats left: 22
+-----------------------------------------------------------------------------------------------------------------
+CSC 423: Software Engineering (3.0): 3 cr
+Provides an overview of software engineering, exploring different stages of the software development lifecycle and emphasizing a systematic approach. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course:Section A - MWF 11:00-12:00, Pierre Antoine Akiki, Seats taken: 30, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 425: Data Communications and Computer Networks (3.0): 3 cr
+Teaches the design and analysis of communication systems and networks, covering LANs, wireless technologies, and Internet Protocols. Prerequisites: CSC 218, CSC 312, or equivalent. Available classes for this course:Section A - MWF 9:00-10:00, Hoda Maalouf, Seats taken: 35, Seats left: 0
+Section B - MWF 11:00-12:00, Hoda Maalouf, Seats taken: 9, Seats left: 26
+-----------------------------------------------------------------------------------------------------------------
+CSC 426: Principles of Database Systems (3.0): 3 cr
+Covers database design and implementation, teaching students to develop databases using a DBMS and implement queries. Prerequisites: CSC 213, CSC 215, CSC 217, or department approval. Available classes for this course:Section A - MWF 1:00-2:00, Pierre Antoine Akiki, Seats taken: 31, Seats left: 0
+Section B - TTH 1:30-3:00, Staff, Seats taken: 8, Seats left: 22
+-----------------------------------------------------------------------------------------------------------------
+CSC 432: Introduction to Artificial Intelligence (3.0): 3 cr
+An introductory course to AI focusing on intelligent agents and search methods, covering game playing, logic, machine learning, and probabilistic reasoning. Corequisite: CSC 313. Available classes for this course:Section A - MWF 3:00-4:00, Staff, Seats taken: 29, Seats left: 6
+-----------------------------------------------------------------------------------------------------------------
+CSC 446: Applied Database Systems (3.0): 3 cr
+Explores fundamental and advanced topics in database systems including architecture, design, implementation, and administration using a DBMS. Prerequisites: CSC 226 or CSC 426. Available classes for this course:Section A - TTH 11:00-12:30, Staff, Seats taken: 7, Seats left: 23
+-----------------------------------------------------------------------------------------------------------------
+CSC 450: Human-Computer Interaction (3.0): 3 cr
+Covers fundamental HCI principles including UI design, prototyping, construction, and evaluation, focusing on usability and practical skills in UI implementation. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 456: Data Mining (3.0): 3 cr
+Provides a comprehensive understanding of Data Mining methodologies, covering data preprocessing, Data Warehousing, OLAP, classification, association, and clustering analysis. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 463: Advanced Software Development (3.0): 3 cr
+Teaches advanced Visual C# programming for .NET Framework applications, focusing on object-oriented and event-driven approaches for various applications. Prerequisites: CSC 213, CSC 215, or CSC 217. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+CSC 480: Internship (1.0): 1 cr
+Provides practical industry experience with supervision by both a faculty member and a company administrator, requiring a final presentation and report. Minimum duration is 2 months full-time or 4 months part-time. Prerequisite: Junior Standing. Available classes for this course:Section A - T.B.A., Staff, Seats taken: 26, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+CSC 485: Seminar (3.0): 3 cr
+Offers a study opportunity on topics in computer science not covered in the regular curriculum. Prerequisite: Junior Standing. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+EEN 323: Fundamentals of Computer Hardware (3.0): 3 cr
+Covers computer system hardware architecture, focusing on MIPS instruction set, floating point operations, and introduces GPU architecture in cloud computing. Prerequisite: EEN 220. Available classes for this course:Section A - TTH 9:30-11:00, Abdallah Kassem, Seats taken: 0, Seats left: 35
+-----------------------------------------------------------------------------------------------------------------
+EEN 342: Computer Networks (3.0): 3 cr
+An introduction to data networks, covering wired and wireless networks, Ethernet, the ISO reference model, TCP/IP, and modern networking concepts. Prerequisite: EEN 340. Available classes for this course:Section A - TTH 4:30-6:00, Staff, Seats taken: 4, Seats left: 31
+-----------------------------------------------------------------------------------------------------------------
+ENS 202: The Environment and Sustainable Development (3.0): 3 cr
+Introduces principles of sustainable development, focusing on key challenges like population growth, energy use, and environmental conservation, supported by case studies. Available classes for this course:Section A - TTH 3:00-4:30, Staff, Seats taken: 5, Seats left: 40
+-----------------------------------------------------------------------------------------------------------------
+FQM 200: Food Security and Sustainability (3.0): 3 cr
+Covers natural resource management and food security from a global perspective, discussing agricultural trends, sustainability, and social responsibility. Available classes for this course:Section A - TTH 11:00-12:30, Cecile Obeid, Seats taken: 44, Seats left: 1
+Section B - TTH 9:30-11:00, Cecile Obeid, Seats taken: 45, Seats left: 0
+Section C - MWF 11:00-12:00, Crystal Ghantous, Seats taken: 45, Seats left: 0
+Section D - MWF 2:00-3:00, Crystal Ghantous, Seats taken: 45, Seats left: 0
+Section E - TTH 3:00-4:30, Romy Chammas, Seats taken: 45, Seats left: 0
+Section F - TTH 1:30-3:00, Romy Chammas, Seats taken: 8, Seats left: 37
+-----------------------------------------------------------------------------------------------------------------
+GIS 211: Principles of Geographical Information Sciences (3.0): 3 cr
+An introduction to GIS, covering data structures, map basics, cartographic representation, Remote Sensing, and GPS. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+MAT 202: Mathematics for Arts (3.0): 3 cr
+Covers coordinate geometry, rigid motions, symmetry, and fractals, tailored for arts students. Prerequisite: Sophomore Standing. Available classes for this course:Section A - MWF 9:00-10:00, Staff, Seats taken: 5, Seats left: 40
+-----------------------------------------------------------------------------------------------------------------
+MAT 211: Discrete Mathematics (3.0): 3 cr
+Focuses on arithmetic in various bases, set theory, logic, Boolean algebra, and other discrete math topics. Prerequisite: Sophomore Standing. Available classes for this course:Section A - MWF 11:00-12:00, Holem Saliba, Seats taken: 35, Seats left: 0
+Section B - TTH 11:00-12:30, Holem Saliba, Seats taken: 27, Seats left: 8
+Section C - MWF 9:00-10:00, Staff, Seats taken: 8, Seats left: 27
+-----------------------------------------------------------------------------------------------------------------
+MAT 213: Calculus III (3.0): 3 cr
+Advances calculus studies including integration techniques, infinite sequences and series, and areas in polar coordinates. Prerequisites: MAT 112 or Placement. Available classes for this course:Section A - MWF 10:00-11:00, Staff, Seats taken: 9, Seats left: 26
+Section B - TTH 3:00-4:30, Staff, Seats taken: 16, Seats left: 19
+Section C - TTH 9:30-11:00, Staff, Seats taken: 9, Seats left: 26
+Section D - MWF 8:00-9:00, Staff, Seats taken: 8, Seats left: 27
+Section E - MWF 11:00-12:00, Staff, Seats taken: 18, Seats left: 17
+-----------------------------------------------------------------------------------------------------------------
+MAT 215: Linear Algebra I (3.0): 3 cr
+An introductory course covering linear equations, matrices, determinants, vector spaces, eigenvalues, eigenvectors, and diagonalization. Includes MATLAB computer explorations. Prerequisite: Sophomore Standing. Available classes for this course:Section A - TTH 1:30-3:00, George Eid, Seats taken: 16, Seats left: 19
+Section B - TTH 3:00-4:30, George Eid, Seats taken: 5, Seats left: 30
+Section C - MWF 2:00-3:00, Malhab Keyrouz, Seats taken: 6, Seats left: 29
+Section D - MWF 10:00-11:00, Ziad Rached, Seats taken: 18, Seats left: 17
+Section E - MWF 11:00-12:00, Malhab Keyrouz, Seats taken: 17, Seats left: 18
+-----------------------------------------------------------------------------------------------------------------
+MAT 224: Calculus IV (3.0): 3 cr
+Introduces functions of several variables and multiple integrations, including techniques and applications in Cartesian, cylindrical, and spherical coordinates. Prerequisite: MAT 213. Available classes for this course:Section A - MWF 1:00-2:00, Staff, Seats taken: 33, Seats left: 2
+Section B - TTH 11:00-12:30, Bassem Ghalayini, Seats taken: 27, Seats left: 8
+-----------------------------------------------------------------------------------------------------------------
+MIS 201: Management Information Systems (3.0): 3 cr
+Designed to expose students to the principles of MIS, highlighting the role of IT in the digital economy. Available classes for this course:Section A - TTH 3:00-4:30, Staff, Seats taken: 1, Seats left: 44
+-----------------------------------------------------------------------------------------------------------------
+POS 201: Introduction to Political Science (3.0): 3 cr
+Covers fundamental concepts in political science. Prerequisite: ENL 105. Available classes for this course:Section A - MWF 10:00-11:00, Staff, Seats taken: 12, Seats left: 33
+Section B - TTH 9:30-11:00, Maria Njaim, Seats taken: 9, Seats left: 36
+Section C - MWF 3:00-4:00, Staff, Seats taken: 4, Seats left: 41
+Section D - TTH 1:30-3:00, Staff, Seats taken: 6, Seats left: 39
+-----------------------------------------------------------------------------------------------------------------
+POS 209: Citizenship (3.0): 3 cr
+Introduces the concept of citizenship and the relationship between individuals and the state, emphasizing rights, duties, and active civic engagement. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+POS 210: Government and Politics of Lebanon (3.0): 3 cr
+An overview of the Lebanese political system, focusing on democracy, political processes, and national institutions. Available classes for this course:Section A - MWF 9:00-10:00, Staff, Seats taken: 1, Seats left: 44
+-----------------------------------------------------------------------------------------------------------------
+POS 240: Law and Society (3.0): 3 cr
+Examines the nature and functions of law, legal institutions, and their role in society. Prerequisite: ENL 105. Available classes for this course:Section A - MWF 1:00-2:00, Dany Ghsoub, Seats taken: 14, Seats left: 31
+-----------------------------------------------------------------------------------------------------------------
+POS 319: Democracy and Human Rights (3.0): 3 cr
+Critically explores democracy and human rights, discussing their cultural dimensions, strategies, and impacts on state stability and global human rights protection. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+REG 212: Religion and Social Issues (3.0): 3 cr
+Explores the foundational beliefs of major monotheistic religions and their perspectives on key social issues. Prerequisite: ENL 213. Available classes for this course:Section A - MWF 9:00-10:00, Ziad Fahed, Seats taken: 15, Seats left: 30
+Section B - MWF 11:00-12:00, Ziad Fahed, Seats taken: 12, Seats left: 33
+-----------------------------------------------------------------------------------------------------------------
+REG 213: Catholicism (3.0): 3 cr
+Presents the fundamental teachings of the Catholic Church, focusing on its contemporary relevance and practices. Prerequisite: ENL 213. Available classes for this course:Section A - TTH 1:30-3:00, Joseph Tannous, Seats taken: 17, Seats left: 28
+-----------------------------------------------------------------------------------------------------------------
+REG 215: World Religions (3.0): 3 cr
+Examines major religious traditions and their historical expressions of the sacred, including Christianity, Judaism, Islam, Hinduism, Buddhism, Confucianism, and Daoism. Prerequisite: ENL 213. Available classes for this course:Section A - MWF 10:00-11:00, Ziad Fahed, Seats taken: 18, Seats left: 27
+Section B - TTH 3:00-4:30, Paul Jahshan, Seats taken: 18, Seats left: 27
+-----------------------------------------------------------------------------------------------------------------
+REG 313: The Maronites: Faith and Cultural Heritage (3.0): 3 cr
+Explores Maronite cultural and theological heritage, emphasizing Maronite identity and contributions to regional development. Prerequisite: ENL 213. Available classes for this course:Section A - TTH 4:30-6:00, George Antaby, Seats taken: 32, Seats left: 13
+-----------------------------------------------------------------------------------------------------------------
+REG 314: Marriage and Family in the Catholic Church (3.0): 3 cr
+Examines marriage and family from a Catholic perspective, emphasizing theological and ritual aspects. Prerequisite: ENL 213. Available classes for this course:Section A - TTH 11:00-12:30, Joseph Tannous, Seats taken: 21, Seats left: 24
+Section B - MWF 8:00-9:00, Chady Rahme, Seats taken: 19, Seats left: 26
+Section D - TTH 9:30-11:00, Akram Khoury, Seats taken: 45, Seats left: 0
+-----------------------------------------------------------------------------------------------------------------
+STA 210: Statistics for Business and Economics (3.0): 3 cr
+Covers descriptive statistics, probability, random variables, hypothesis testing, regression, and analysis of variance, with the use of statistical software. Prerequisite: Sophomore Standing. Available classes for this course:Section A - TTH 9:30-11:00, Holem Saliba, Seats taken: 19, Seats left: 16
+-----------------------------------------------------------------------------------------------------------------
+ARB 101: Arabic Essay Reading and Writing I (3.0): 3 cr
+Focuses on the essay, exploring its development and various types, tailored for freshman students. Available classes for this course: None
+-----------------------------------------------------------------------------------------------------------------
+ARB 211: Appreciation of Arabic Literature (3.0): 3 cr
+Addresses essential characteristics of Arabic literature, including themes, schools, and genres. Prerequisite: Sophomore Standing. Available classes for this course:Section A - MWF 10:00-11:00, Maria El Hachem, Seats taken: 13, Seats left: 12
+Section B - MWF 2:00-3:00, Gloria Khater, Seats taken: 9, Seats left: 16
+Section C - TTH 9:30-11:00, Salma Abdallah, Seats taken: 6, Seats left: 19
+Section D - TTH 9:30-11:00, Nihale El Khoury, Seats taken: 13, Seats left: 12
+Section E - TTH 11:00-12:30, Nihale El Khoury, Seats taken: 9, Seats left: 16
+Section F - TTH 1:30-3:00, Salma Abdallah, Seats taken: 7, Seats left: 18
+Section G - TTH 3:00-4:30, Rania Ajaltouni, Seats taken: 14, Seats left: 11
+-----------------------------------------------------------------------------------------------------------------
+ARB 212: Advanced Arabic Grammar (3.0): 3 cr
+Aims to enhance students' understanding and application of Arabic grammatical structures in discourse. Prerequisite: Sophomore Standing. Available classes for this course:Section A - MWF 11:00-12:00, Maria El Hachem, Seats taken: 23, Seats left: 2
+Section B - MWF 3:00-4:00, Gloria Khater, Seats taken: 8, Seats left: 17
+Section C - TTH 8:00-9:30, Salma Abdallah, Seats taken: 1, Seats left: 24
+Section D - TTH 8:00-9:30, Issam Hourani, Seats taken: 21, Seats left: 4
+Section E - TTH 9:30-11:00, Jean Yammine, Seats taken: 9, Seats left: 16
+-----------------------------------------------------------------------------------------------------------------
+ARB 224: Arabic Literature and Human Thought (3.0): 3 cr
+Explores the intersection of philosophy and Arabic literature, analyzing works from the pre-Islamic period to the present. Available classes for this course:Section A - TTH 8:00-9:30, Jean Yammine, Seats taken: 2, Seats left: 23
+-----------------------------------------------------------------------------------------------------------------
+ARB 231: Technical Arabic (3.0): 3 cr
+Trains students in using Arabic linguistic tools relevant to technical, scientific, and professional contexts. Prerequisite: Sophomore Standing. Available classes for this course:Section A - MWF 2:00-3:00, Toufic Bou Nasr, Seats taken: 11, Seats left: 14
+Section B - MWF 3:00-4:00, Toufic Bou Nasr, Seats taken: 5, Seats left: 20
+Section C - MWF 5:00-6:00, Rania Ajaltouni, Seats taken: 0, Seats left: 25
+Section D - TTH 11:00-12:30, Salma Abdallah, Seats taken: 6, Seats left: 19
+Section E - TTH 11:00-12:30, Layal Merhy, Seats taken: 5, Seats left: 20
+Section F - TTH 1:30-3:00, Layal Merhy, Seats taken: 19, Seats left: 6
+-----------------------------------------------------------------------------------------------------------------
+ARB 302: Practice in Uses of Arabic (3.0): 3 cr
+Focuses on practical uses of Arabic, exploring its application in various specialized fields such as advertising, journalism, and broadcast media. Available classes for this course:Section A - TTH 8:00-9:30, Nihale El Khoury, Seats taken: 2, Seats left: 23
+-----------------------------------------------------------------------------------------------------------------

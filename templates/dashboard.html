@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Welcome to Your Dashboard!</h1>
+
+    <!-- Logout Button -->
+    <form action="/logout" method="get">
+        <button type="submit">Logout</button>
+    </form>
+
+    <!-- Chat Link -->
+    <div>
+        <a href="/chat">
+            <button type="button">Go to Chat</button>
+        </a>
+    </div>
+
+    <!-- Note Section -->
+    <div>
+        <h2>Your Notes</h2>
+        <textarea id="noteContent" placeholder="Write your note here..."></textarea>
+        <button onclick="saveNote()">Save Note</button>
+    </div>
+
+    <!-- List of Previous Notes -->
+    <div>
+        <h2>Previous Notes</h2>
+        <ul id="notesList">
+            {% for note in notes %}
+                <li>
+                    <textarea data-noteid="{{ note.NoteID }}">{{ note.NoteContent }}</textarea>
+                    <button onclick="updateNote({{ note.NoteID }})">Update Note</button>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <script>
+        function saveNote() {
+            var noteContent = document.getElementById('noteContent').value;
+            $.ajax({
+                url: '/note/save',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ note_content: noteContent }),
+                success: function(response) {
+                    alert(response.message);
+                    if (!response.error) {
+                        // Clear the textarea after saving
+                        document.getElementById('noteContent').value = '';
+                        // Optionally, add the new note to the list of notes
+                        $('#notesList').prepend(`<li><textarea data-noteid="${response.note_id}">${noteContent}</textarea><button onclick="updateNote(${response.note_id})">Update Note</button></li>`);
+                    }
+                }
+            });
+        }
+
+        function updateNote(noteId) {
+            var noteContent = document.querySelector(`textarea[data-noteid='${noteId}']`).value;
+            $.ajax({
+                url: '/note/save',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ note_id: noteId, note_content: noteContent }),
+                success: function(response) {
+                    alert(response.message);
+                }
+            });
+        }
+
+        // Set up auto-save every 30 seconds
+        setInterval(function() {
+            var noteContent = document.getElementById('noteContent').value;
+            $.ajax({
+                url: '/note/auto_save',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ note_content: noteContent }),
+                success: function(response) {
+                    console.log('Auto-saved at: ' + new Date().toLocaleTimeString());
+                }
+            });
+        }, 30000);
+    </script>
+</body>
+</html>
