@@ -117,20 +117,21 @@ cursor.execute('''
 ''')
 
 # Function to add a fictional student
-def add_student(student_name, major, email, username, password):
+def add_student(cursor, student_name, major, email, username, password):
     cursor.execute(
         "INSERT INTO Students (StudentName, Major, Email) VALUES (?, ?, ?)",
         (student_name, major, email)
     )
     student_id = cursor.lastrowid
-    hashed_password = generate_password_hash(password)
+    # Explicitly specify the hash method to ensure compatibility
+    hashed_password = generate_password_hash(password, method='pbkdf2:sha256')
     cursor.execute(
         "INSERT INTO StudentLogins (StudentID, Username, Password) VALUES (?, ?, ?)",
         (student_id, username, hashed_password)
     )
-
+    
 # Add fictional students
-add_student('Alice Johnson', 'Computer Science', 'alice.johnson@example.com', 'alice_j', 'password123')
+add_student('Bob Smith', 'Mathematics', 'bob.smith@example.com', 'bob_smith', 'securepassword123')
 # Commit changes and close the connection
 connection.commit()
 connection.close()

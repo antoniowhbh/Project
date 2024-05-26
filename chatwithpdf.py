@@ -1,17 +1,36 @@
 import os
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 import openai
+from langchain.document_loaders import UnstructuredPowerPointLoader
 
 os.environ["OPENAI_API_KEY"] = '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'
 
+
 class DocumentChatbot:
-    def __init__(self, model, pdf_path):
+    SUPPORTED_DOCUMENT_TYPES = {
+        'pdf': PyPDFLoader,
+        'docx': Docx2txtLoader,
+        'pptx': UnstructuredPowerPointLoader
+    }
+
+    def __init__(self, model, document_path, document_type='pdf'):
         self.chat_model = model
-        self.loader = PyPDFLoader(pdf_path)
-        self.documents = self.loader.load_and_split()
+        self.document_type = document_type
+        self.document_path = document_path
+        self.validate_document_type()
+        self.documents = self.load_documents()
         self.faiss_index = FAISS.from_documents(self.documents, OpenAIEmbeddings())
+
+    def validate_document_type(self):
+        if self.document_type not in self.SUPPORTED_DOCUMENT_TYPES:
+            raise ValueError(f"Unsupported document type: {self.document_type}. Use one of {list(self.SUPPORTED_DOCUMENT_TYPES.keys())}.")
+
+    def load_documents(self):
+        loader_class = self.SUPPORTED_DOCUMENT_TYPES[self.document_type]
+        loader = loader_class(self.document_path)
+        return loader.load_and_split()
 
     def search_documents(self, query, k=20):
         # Returns top k similar documents based on the query
@@ -22,7 +41,7 @@ class DocumentChatbot:
         docs = self.search_documents(query)
         context = ""
         for doc in docs[:10]:  # Customize the number of documents as needed
-            context += str(doc.metadata["page"]) + doc.page_content[:300] + " "
+            context += str(doc.metadata.get("page", "Slide")) + doc.page_content[:300] + " "
 
         # Create a list of messages from history and append the current query with context
         messages = [{"role": "system", "content": "You are a helpful assistant."}]
@@ -42,8 +61,11 @@ class DocumentChatbot:
         history.append(("assistant", chat_response))
         return chat_response
 
+
+# Example usage
 chatpdf = DocumentChatbot(model="gpt-3.5-turbo-0125",
-                          pdf_path="/Users/antoniowehbe/Desktop/NDU_catalog_folder/4d98e0e5-0918-4a24-86e6-664b9ee0ed11.pdf")
+                          document_path="/Users/antoniowehbe/Downloads/Modula.pptx",
+                          document_type='pptx')  # Specify 'pptx' for PowerPoint files
 
 
 def chatbot():
@@ -56,7 +78,6 @@ def chatbot():
         response = chatpdf.chat(user_message, history)
         print("Chatbot:", response)
 
+
 if __name__ == "__main__":
     chatbot()
-
-

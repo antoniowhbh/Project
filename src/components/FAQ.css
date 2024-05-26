@@ -1,0 +1,47 @@
+/* src/styles/FAQ.css */
+
+.faq-container {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto 130px auto; /* Added bottom margin */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-size: 1.5rem;
+    color: #222;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .faq-answer.active {
+    max-height: 1000px; /* Adjust as needed */
+    transition: max-height 0.5s ease;
+  }
+  
+  .faq-answer p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  

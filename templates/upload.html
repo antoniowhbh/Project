@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload PDF and Chat</title>
+    <title>Upload Document and Chat</title>
+    <style>
+        @media (max-width: 600px) {
+            input[type="text"], input[type="file"], input[type="submit"], button {
+                width: 100%;  /* Full width on small screens */
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Upload PDF File</h1>
+    <h1>Upload Your Document</h1>
     <form id="uploadForm">
-        <input type="file" name="file" required>
-        <input type="submit" value="Upload">
+        <input type="file" name="file" aria-label="Upload your document" required>
+        <input type="submit" value="Upload" aria-label="Upload Document">
     </form>
     <hr>
-    <h1>Chat with the PDF</h1>
+    <h1>Chat with the Document</h1>
     <input type="text" id="message" placeholder="Enter your message" onkeypress="handleKeyPress(event)">
     <button onclick="sendMessage()">Send</button>
     <div id="chatResponses" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto;"></div>
@@ -21,33 +28,36 @@
         document.getElementById('uploadForm').onsubmit = function(event) {
             event.preventDefault();
             const formData = new FormData(this);
+            const submitButton = document.querySelector('input[type="submit"]');
+            submitButton.disabled = true;
             fetch('/upload', {
                 method: 'POST',
                 body: formData,
             }).then(response => response.json())
               .then(data => {
-                  if (data.path) {
-                      document.getElementById('uploadForm').style.display = 'none';  // Hide form after upload
-                      window.pdfPath = data.path;  // Save path globally
-                      document.getElementById('message').focus();  // Focus on message input
-                  } else {
+                  submitButton.disabled = false;
+                  if (data.error) {
                       alert('Upload failed: ' + data.error);
+                  } else {
+                      document.getElementById('uploadForm').style.display = 'none';
+                      window.documentPath = data.path;
+                      document.getElementById('message').focus();
                   }
               });
         };
 
         function sendMessage() {
             const message = document.getElementById('message').value;
-            if (!message) return;  // Prevent sending empty messages
-            appendMessage('You', message);  // Display user message
+            if (!message) return;
+            appendMessage('You', message);
             fetch('/chat', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({pdf_path: window.pdfPath, message: message})
+                body: JSON.stringify({document_path: window.documentPath, message: message})
             }).then(response => response.json())
               .then(data => {
-                  appendMessage('Helper', data.response);  // Display chatbot response
-                  document.getElementById('message').value = '';  // Clear input after sending
+                  appendMessage('Helper', data.response);
+                  document.getElementById('message').value = '';
               }).catch(error => {
                   console.error('Error:', error);
                   appendMessage('Helper', 'Error communicating with the server.');
@@ -56,15 +66,17 @@
 
         function handleKeyPress(event) {
             if (event.key === 'Enter') {
-                event.preventDefault();  // Prevent form submission
+                event.preventDefault();
                 sendMessage();
             }
         }
 
         function appendMessage(sender, text) {
             const messagesContainer = document.getElementById('chatResponses');
-            messagesContainer.innerHTML += `<p><strong>${sender}:</strong> ${text}</p>`;
-            messagesContainer.scrollTop = messagesContainer.scrollHeight;  // Auto scroll to the latest message
+            const messageElement = document.createElement('p');
+            messageElement.innerHTML = `<strong>${sender}:</strong> ${text}`;
+            messagesContainer.appendChild(messageElement);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
         }
     </script>
 </body>

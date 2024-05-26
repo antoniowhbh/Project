@@ -54,7 +54,7 @@ If the context doesn't contain any relevant information to the question, don't m
 {context}
 </context>
 """
-LLM_MODEL_NAME = "gpt-3.5-turbo-0125"
+LLM_MODEL_NAME = "gpt-4o"
 ENCODING_MODEL_NAME = "cl100k_base"
 
 encoding = tiktoken.get_encoding("cl100k_base")

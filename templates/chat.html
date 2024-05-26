@@ -3,43 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Real-Time Chatbot</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const socket = io();  // Connect to the server
-
-            socket.on('connect', function() {
-                console.log('Connected to the server.');
-            });
-
-            socket.on('after connect', function(msg) {
-                appendMessage(msg.data, 'system');
-            });
+            const sessionId = Date.now().toString(36) + Math.random().toString(36).substr(2); // Generate a unique session ID
 
             function sendMessage() {
                 const input = document.getElementById("messageInput").value;
                 if (input.trim() === '') return; // Prevent empty messages
                 appendMessage("You: " + input, 'user'); // Append user message
-                if (input.trim().toLowerCase() === "confirm registration") {
-                    socket.emit('confirm', {message: input});
-                } else {
-                    socket.emit('message', {message: input});
-                }
+                fetch('/message', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: input, sid: sessionId }) // Include sessionId in the POST data
+                })
+                .then(response => response.json())
+                .then(data => {
+                    appendFormattedResponse(data.data); // Handle response
+                });
                 document.getElementById("messageInput").value = '';  // Clear the input after sending
             }
 
-            socket.on('response', function(msg) {
-                appendFormattedResponse(msg.data); // Handles chatbot responses differently
-            });
-
-            socket.on('confirm', function(msg) {
-                appendMessage(msg.data, 'system');
-                createConfirmButtons();
-            });
-
             function saveConversation() {
-                const student_id = 1;  // Example student ID, modify as required
-                socket.emit('save_conversation', {student_id: student_id});
+                fetch('/save_conversation', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ student_id: 1, sid: sessionId }) // Include sessionId and student ID
+                })
+                .then(response => response.json())
+                .then(data => {
+                    appendMessage(data.data, 'system'); // Show success message
+                });
             }
 
             document.getElementById("sendButton").onclick = sendMessage;
@@ -70,28 +67,6 @@
                 messageElement.innerHTML = message.replace(/(?:\r\n|\r|\n)/g, '<br>'); // Replace newlines with HTML breaks
                 chat.appendChild(messageElement);
                 chat.appendChild(document.createElement('br')); // Adds extra line breaks after response
-            }
-
-            function createConfirmButtons() {
-                const chat = document.getElementById("chat");
-                const confirmButton = document.createElement('button');
-                confirmButton.textContent = "Confirm";
-                confirmButton.onclick = function() {
-                    socket.emit('confirm', {message: "confirm"});
-                    confirmButton.remove(); // Remove buttons after clicking
-                    cancelButton.remove();
-                };
-
-                const cancelButton = document.createateElement('button');
-                cancelButton.textContent = "Cancel";
-                cancelButton.onclick = function() {
-                    socket.emit('confirm', {message: "cancel"});
-                    confirmButton.remove(); // Remove buttons after clicking
-                    cancelButton.remove();
-                };
-
-                chat.appendChild(confirmButton);
-                chat.appendChild(cancelButton);
             }
         });
     </script>

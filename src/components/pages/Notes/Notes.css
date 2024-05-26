@@ -1,0 +1,58 @@
+/* src/styles/Notes.css */
+
+.notes-container {
+    background-color: #f0f2f5;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .notes-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .course-section {
+    margin-bottom: 40px;
+  }
+  
+  .course-title {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .note-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.2s;
+  }
+  
+  .note-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .note-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .note-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  

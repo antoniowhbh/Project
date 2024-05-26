@@ -1,0 +1,100 @@
+/* CourseSelection.css */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-container h1 {
+  color: #fff;
+  font-size: 3rem; /* Adjusted font size */
+  margin-top: 80px; /* Increase margin to push the title down */
+  margin-bottom: 20px; /* Space for description */
+  text-align: center; /* Ensure center alignment */
+}
+
+.hero-container p {
+  color: #fff;
+  font-size: 1.2rem; /* Smaller font size for the subtitle */
+  text-align: center;
+  max-width: 800px; /* Adjusted max width for better alignment */
+  margin-bottom: 20px; /* Space above the search bar */
+}
+
+.course-selection-container {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent with light background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 90%; /* Adjusted width for better course display */
+  max-width: 800px; /* Maximum width constraint */
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto; /* Allow scrolling */
+  max-height: 350px; /* Limit height to encourage scrolling */
+  width: 100%; /* Full width of container */
+}
+
+.course-item {
+  width: 100%; /* Full width for better checkbox alignment */
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f8f9fa; /* Light grey background for each item */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.course-item label {
+  margin-left: 10px; /* Space between checkbox and label */
+  font-size: 1.2rem; /* Larger font for readability */
+  color: #333; /* Darker text for better contrast */
+}
+
+.course-item input[type="checkbox"] {
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional CSS for search bar */
+.search-bar {
+  width: 50%; /* Smaller width */
+  padding: 8px 10px;
+  margin-bottom: 20px; /* Additional space below the search bar */
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Subtle border */
+  font-size: 1rem; /* Appropriate font size */
+}

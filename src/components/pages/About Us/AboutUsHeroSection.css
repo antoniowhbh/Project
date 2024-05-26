@@ -1,0 +1,33 @@
+.hero-container {
+    background: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-container video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  
+  .hero-container h1 {
+    color: #fff;
+    font-size: 4rem;
+    z-index: 2;
+  }
+  
+  .hero-container p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 2;
+  }
+  

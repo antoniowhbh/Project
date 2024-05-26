@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    font-size: 3rem; /* Increase the font size */
+    background: transparent;
+    color: rgb(255, 252, 252);
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.toggle-favorites-button {
+    background: gold; /* Set to gold */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background 0.3s ease;
+}
+
+.toggle-favorites-button:hover {
+    background: #ffd700; /* Darker gold on hover */
+}
+
+.conversation-list {
+    margin-top: 20px;
+}
+
+.conversation-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.conversation-item h3 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.conversation-item p {
+    color: #666;
+}
+
+.conversation-item .conversation-date {
+    font-size: 12px;
+    color: #999;
+}
+
+.conversation-item .actions {
+    margin-top: 10px;
+}
+
+.conversation-item .actions .view-button {
+    background: #000000; /* Black for "View Full Conversation" */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.conversation-item .actions .view-button:hover {
+    background: #333333; /* Slightly lighter black on hover */
+}
+
+.conversation-item .actions .delete-button {
+    background: #ff0000; /* Red for "Delete" */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background 0.3s ease;
+}
+
+.conversation-item .actions .delete-button:hover {
+    background: #cc0000; /* Darker red on hover */
+}
+
+.conversation-item .actions .favorite-button {
+    background: #0779e4; /* Default blue for "Favorite" */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background 0.3s ease;
+}
+
+.conversation-item .actions .favorite-button:hover {
+    background: #055cab; /* Darker blue on hover */
+}
